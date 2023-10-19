@@ -14,6 +14,7 @@ object ScalaBlur:
     setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE)
     setSize(1911, 965)
     setLayout(BorderLayout())
+    setLocationRelativeTo(null)
 
     val rightpanel = JPanel()
     rightpanel.setBorder(
